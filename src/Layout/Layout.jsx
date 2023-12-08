@@ -1,11 +1,12 @@
 import React from 'react'
 import { Link, Outlet } from "react-router-dom";
 
+
 const Layout = () => {
     return (
       <div>
-        <div className="mt-9 m-0  relative">
-          <div className="flex gap-3 justify-center fixed  shadow-md w-[100%] bg-[white] left-0 right-0  ">
+        <div className="mt-0 m-0  relative ">
+          <div className="flex gap-3 pt-4 justify-center fixed z-40 shadow-md w-[100%] pb-4 bg-[white] left-0 right-0  ">
             <svg
               width="148"
               height="42"
@@ -53,6 +54,7 @@ const Layout = () => {
               </svg>
               Каталог товаров
             </button>
+
             <input
               type="search"
               className=" p-2 border-[3px] w-[35%] rounded-md"
