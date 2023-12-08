@@ -109,6 +109,9 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <div className="flex flex-col mt-[6%] ml-[13%]">
+        <p className="text-2xl font-bold ">Самые горячие скидки 🔥</p>
+      </div>
     </div>
   );
 }
